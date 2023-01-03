@@ -1,0 +1,44 @@
+head {
+    text-align: center;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #556B2F;
+    text-align: center;
+}
+
+.serif {
+    font-family: Times, "Times New Roman", Georgia, serif;
+}
+
+h1, h2 {
+    color: #12160b;
+    background-color: rgb(41, 61, 0);
+    margin: 0px 500px auto;
+}
+
+h3 {
+    color: rgb(26, 71, 0);
+}
+
+table {
+    align-items: center;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+thead {
+    background-color: rgb(41, 61, 0);
+}
+
+td {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.top{
+    color: beige;
+}
