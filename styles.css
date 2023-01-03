@@ -4,7 +4,7 @@ head {
 
 body {
     font-family: 'Times New Roman', Times, serif;
-    background-color: #556B2F;
+    background-color: hex#556B2F;
     text-align: center;
 }
 
@@ -13,7 +13,7 @@ body {
 }
 
 h1, h2 {
-    color: #12160b;
+    color: hex#12160b;
     background-color: rgb(41, 61, 0);
     margin: 0px 500px auto;
 }
