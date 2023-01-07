@@ -2,6 +2,27 @@ head {
     text-align: center;
 }
 
+
+.breadcrumb > li {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.breadcrumb li.location+li.location::before {
+    content: "> ";
+}
+  
+.breadcrumb li.location a::hover {
+    color: olive;
+    text-decoration: underline;
+}
+  
+.breadcrumb li.attribute a{
+    color: olivedrab;
+    margin-left: 15px;
+}
+
 body {
     font-family: 'Times New Roman', Times, serif;
     background-color: #556B2F;
@@ -12,10 +33,18 @@ body {
     font-family: Times, "Times New Roman", Georgia, serif;
 }
 
+h1 {
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
 h1, h2 {
     color: #12160b;
     background-color: rgb(41, 61, 0);
-    margin: 0px 500px auto;
+    margin: auto;
 }
 
 h3 {
@@ -37,9 +66,10 @@ td {
     border-left: 1px solid black;
     border-right: 1px solid black;
     border-bottom: 1px solid black;
+    width: 15%;
+    object-fit: contain;
 }
 
-.top{
+.top {
     color: beige;
 }
-
